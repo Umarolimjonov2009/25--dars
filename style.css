@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+#loading{
+    width: 150px;
+    height: 150px;
+    border: 30px solid blue;
+    border-top: 30px solid red;
+    margin: 250px auto;
+    border-radius: 50%;
+    animation: aylan 2s infinite;
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1220px;
+}
+
+.gh {
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.selectinput{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+select {
+    width: 180px;
+    height: 50px;
+}
+
+input {
+    width: 180px;
+    height: 50px;
+    padding-left: 10px;
+}
+
+#cardsOta {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#box{
+    display: none;
+}
+.card {
+    width: 300px;
+    height: 350px;
+    background-color: rgb(194, 194, 194);
+    padding: 10px 30px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.card:hover {
+    scale: 1.02;
+    background-color: white;
+    border: 1px solid rgb(194, 194, 194);
+}
+
+.card h1 {
+    padding-top: 20px;
+}
+
+#age {
+    padding-top: 20px;
+}
+
+#number {
+    padding-top: 10px;
+}
+
+#email {
+    padding-top: 10px;
+}
+
+#manzil {
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+@keyframes aylan {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
